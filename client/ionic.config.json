@@ -1,0 +1,7 @@
+{
+  "name": "rawr",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

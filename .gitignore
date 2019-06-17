@@ -1,0 +1,13 @@
+node_modules
+client/platforms
+client/plugins
+client/www/
+.sourcemaps/
+dist
+.build
+Rawr-win32-x64
+.deploy
+/client/mixtapes.json
+rawr-mixtapes
+/deploy/.release/
+/deploy/.phone_deploy

@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "outDir": "./dist/out-tsc",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "sourceMap": true,
+        "strictNullChecks": false,
+        "declaration": false,
+        "noEmitHelpers": true,
+        "importHelpers": true,
+        "lib": [
+            "dom",
+            "es6",
+            "es7",
+        ],
+        "moduleResolution": "node",
+        "target": "es6"
+    },
+    "include": ["./src/main.ts", "./src/polyfills.ts"],
+    "typeRoots": [
+        "node_modules/@types"
+    ],
+    "compileOnSave": false
+}
